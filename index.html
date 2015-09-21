@@ -1,0 +1,466 @@
+---
+title:homepage
+layout:home
+---
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julie Spragg | Web Developer</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>    
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
+    <link rel="stylesheet" href="css/new.css" />
+    
+    <style>
+     html, h1, h2, h3, h4, h5 {
+         font-family: 'Roboto Condensed', sans-serif !important;
+     }
+     #success, #error {
+          display: none;
+     }
+     footer {
+         text-align: center;
+         padding: 100px 0px 0px 0px;
+         background: white;
+         font-color: #999999;
+         font-size: 0.875em;
+     }
+    footer .copyright {
+         display: block;
+         line-height: 1.4em;
+         background-color:#e5e5e5;
+         padding: 25px;
+     }
+     .clip-svg {
+       width: 0;
+       height: 0;
+     }
+
+     .clip-each {
+       display: block;
+       position: relative;
+       -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+       clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+       -webkit-clip-path: url("#hexagon-clip");
+       clip-path: url("#hexagon-clip");
+       -webkit-transition: all 0.2s ease-in;
+       transition: all 0.2s ease-in;
+       margin: 0 auto;
+     }
+
+     .clip-each {
+       display: block;
+       position: relative;
+       -webkit-clip-path: circle(50%);
+       clip-path: circle(50%);
+       -webkit-transition: all 0.2s ease-in;
+       transition: all 0.2s ease-in;
+       margin: 0 auto;
+     }
+     a.clip-each:hover {
+       background: #7FB0B2;
+       -webkit-transition: all 0.25s ease-in;
+       transition: all 0.25s ease-in;
+     }
+
+     .clip-solid {
+       width: 300px;
+       height: 300px;
+       background-image: url("https://juliespragg.com/img/julie.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-color: #999;
+       background-position-x:50%;
+       background-blend-mode: hard-light;
+       -webkit-transition: all 2.5s linear;
+       transition: all 2.5s linear;
+         background-position:center;
+     
+     }
+
+     .clip-solid:after {
+       content: "";
+       position: absolute;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       -webkit-clip-path: circle(50%);
+       clip-path: circle(50%);
+       -webkit-clip-path: url("#triangle-clip");
+       clip-path: url("#triangle-clip");
+       background: #7FB0B2;
+       z-index: 1;
+       width: 100%;
+       height: 155px;
+       -webkit-transition: all 0.2s linear;
+       transition: all 0.2s linear;
+       pointer-events: none;
+     }
+
+     .clip-solid:hover:after {
+       height: 0;
+       -webkit-transition: all 0.45s ease-in;
+       transition: all 0.45s ease-in;
+     }
+     
+     .clip-solid:hover {
+       -webkit-transition: all 0.2s linear;
+       transition: all 0.2s linear;
+     }
+     .heading {
+          text-align: center;
+          padding:20px 0px;
+     }
+     .row-collapse.portfolio {
+          background-color: #F5F5F5;
+     }
+     .sticky.fixed .logo {
+         line-height: 0.5em;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color:#fefefe;
+         opacity:0.93;
+     }
+     figure {
+          margin:0px;
+          overflow: hidden;
+          position: relative;
+     }
+     figcaption {
+          background-color: rgba(123,123,123,0.3);
+         -webkit-transition: all 0.5s linear;
+         -moz-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+         -ms-transition: all 0.5s linear;
+         transition: all 0.5s linear;
+         -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+         filter: alpha(opacity=0);
+         opacity: 0;
+         top: 0;
+         position: absolute;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         text-align: center;
+     }
+     figcaption .portfolio_info h4 {
+          color: #fff;
+     }
+     figcaption .portfolio_info p {
+          font-size:0.8em;
+          padding:0px 15px;
+     }
+     figcaption .btn {
+         border-radius: 3px;
+         text-transform: uppercase;
+         display: inline-block;
+         padding: 5px 10px;
+         border: 2px solid #fff;
+         font-size: 0.575em;
+         color: #fff;
+         -webkit-transition: all 0.3s ease;
+         -moz-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+         transition: all 0.3s ease;
+     }
+     figure img {
+          -webkit-transform: scaleY(1);
+         -moz-transform: scaleY(1);
+         -o-transform: scaleY(1);
+         -ms-transform: scaleY(1);
+         transform: scaleY(1);
+         -webkit-transition: all 0.7s ease-in-out;
+         -moz-transition: all 0.7s ease-in-out;
+         -o-transition: all 0.7s ease-in-out;
+         -ms-transition: all 0.7s ease-in-out;
+         transition: all 0.7s ease-in-out;
+     }
+     
+     figure:hover img{
+         -webkit-transform: scale(10);
+         -moz-transform: scale(10);
+         -o-transform: scale(10);
+         -ms-transform: scale(10);
+         transform: scale(10);
+         -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+         filter: alpha(opacity=0);
+         opacity: 0;
+     }
+     figure:hover figcaption {
+           -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+           filter: alpha(opacity=100);
+           opacity: 1;          
+     }
+     .portfolio ul li:hover {
+          opacity: 1;
+     }
+     .portfolio_info{
+           position: relative;
+           top: 50%;
+           transform: translateY(-50%);
+     }
+     
+    </style>
+  </head>
+  <body>
+       
+       
+       <div class="hero">
+          <div class="sticky">
+               <div class="headingText" data-topbar role="navigation" data-options="sticky_on: large">
+                   <div class="logo large-12 columns">
+                        <span class="scroll-hide">HELLO, I'M</span> <span class="logoName">JULIE SPRAGG</span><br/><span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span></div>
+               </div>
+          </div>
+       </div>
+       
+             
+       <div class="row about">
+            <h2 data-magellan-destination="about" class="heading">About</h2>
+          <div class="medium-6 large-8 columns" >
+          <a name="about"></a>
+          
+          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+           <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+            
+          </div>
+          <div class="medium-6 large-4 columns">
+                <!--Trying some Clip Path-->
+          	<div class="wrap">
+		<div class="clip-block">
+			<div class="clip-each clip-solid">
+			
+			</div>	
+		</div> <!-- /clip-block -->
+<svg class="clip-svg">
+			<defs>
+				<clipPath id="hexagon-clip" clipPathUnits="objectBoundingBox">
+					<polygon points="0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5" />
+				</clipPath>
+			</defs>
+		</svg>	
+		
+
+		<svg class="clip-svg">
+			<defs>
+				<clipPath id="triangle-clip" clipPathUnits="objectBoundingBox">
+					<polygon points="1 0.05, 0.09 1, 1 1" />
+				</clipPath>
+			</defs>
+		</svg>	
+	</div> <!-- /wrap -->
+
+          <!-- End Clip Wrap -->
+               
+          </div>
+          
+         
+          
+       </div>
+             
+       <div class="row-collapse portfolio">
+          <h2 data-magellan-destination="portfolio" class="heading">Portfolio</h2>
+          <div class="large-10 large-offset-1 columns">
+               <a name="portfolio"></a>
+
+               <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-clearing="">
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                         <a><img src="https://placeimg.com/640/480/animals"/></a>
+                         <figcaption>
+                              <div class="portfolio_info">
+                                   <h4>Title of Work</h4>
+                                   <p class="hide-for-small-only">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                                   <a href="" class="btn">View Project</a>
+                              </div>
+                         </figcaption>
+                    </figure>
+                  </li>
+          
+                  
+              </ul>
+          </div>
+
+          <hr>
+       </div>
+       
+       <div class="row contact  "><!--hide-for-small-up-->
+          <div class="medium-6 large-12 columns" id="contactForm">
+               <h2 data-magellan-destination="contact" class="heading">Contact Me</h2>
+               <a name="contact"></a>
+                <form id="contact" name="contact" method="post" novalidate="novalidate"> 
+                     <fieldset>
+     			<div class="row form-messages">
+          			<div class="large-12 columns">
+     					     <div data-alert class="alert-box success animated fadeIn" id="success">Success! Your message has been sent.<a href="#" class="close">&times;</a></div>	
+     						<div data-alert class="alert-box alert animated fadeIn" id="error">Oops! Something went wrong, go back and try again.<a href="#" class="close">&times;</a></div>
+          			</div>
+     			</div>
+                          
+                    <div class="large-5 columns">
+                         <label for="name" id="name">Name <span id="required">*</span></label>
+                         <input type="text" name="name" id="name" size="30" value="" required="">
+                    
+                         <label for="email" id="email">Email <span id="required">*</span></label>
+                         <input type="text" name="email" id="email" size="30" value="" required="">
+                     </div>
+                     <div class="large-7 columns">
+                         <label for="Message" id="message">Your Message<span id="required"> *</span></label>
+                         <textarea name="message" id="message" required=""></textarea>
+                         <input id="submit" type="submit" name="submit" value="Send Message" class="button radius">
+     			</div>
+                    </fieldset>
+               </form>
+
+          </div>
+       </div>
+     
+       <footer>
+               <div class="row"></div>
+
+               <div class="copyright">© 2015 Julie Spragg. All rights reserved.</div>
+            </div>
+       </footer>
+         <script src="js/vendor/jquery.js"></script>
+         <script src="js/foundation/foundation.js"></script>
+         <script src="js/foundation/foundation.magellan.js"></script>
+         <script src="js/foundation/foundation.topbar.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+         <script src="js/customjs.js"></script>
+         <script>
+              $(document).foundation(
+              {
+                   sticky_class : 'sticky',
+                   "magellan-expedition": {
+                      active_class: 'active', // specify the class used for active sections
+                      threshold: 0, // how many pixels until the magellan bar sticks, 0 = auto
+                      destination_threshold: 20, // pixels from the top of destination for it to be considered active
+                      throttle_delay: 50, // calculation throttling to increase framerate
+                      fixed_top: 0, // top distance in pixels assigend to the fixed element on scroll
+                      offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+                    },
+               });
+          </script>
+          <script type="text/javascript">
+            	// validate contact form
+                 $(function() {
+                    $('#contact').validate({
+                 	        rules: {
+                 	            name: {
+                 	                required: true,
+                 	                minlength: 2
+                 	            },
+                 	            email: {
+                 	                required: true,
+                 	                email: true
+                 	            },
+                 	            message: {
+                 	                required: true
+                 	            },
+                 	        },
+                 	        messages: {
+                 	            name: {
+                 	                required: "This field is required.",
+                 	            },
+                 	            email: {
+                 	                required: "This field is required."
+                 	            },
+                 	            message: {
+                 	                required: "This field is required.",
+                 	            },
+                 	            
+                 	        },
+                            
+                 	    });
+                    });
+          </script>
+  </body>
+</html>
