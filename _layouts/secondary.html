@@ -2,15 +2,30 @@
   <body>
        <!--LOGO/NAV-->
      <div class="hero_secondary">
-          <div class="sticky">
+           <div class="sticky">
                <div class="headingText" data-topbar role="navigation" data-options="sticky_on: large">
                    <div class="logo large-12 columns">
-                        <span class="scroll-hide">PORTFOLIO OF</span> 
-                        <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}">JULIE SPRAGG</a></span>
-                        <br/><span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span>
+                        
+                          <section class="top-bar-section navbar">
+                              <ul>
+               				<li class="nav"><a href="/">Home</a></li>
+               				<li class="nav"><a href="/portfolio">Portfolio</a></li>
+               				<!--logo-->
+               				<li class="logo"><span class="scroll-hide">PORTFOLIO OF</span> 
+                                       <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}">JULIE SPRAGG</a></span>
+                                       <br/>
+                                       <span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span></li>
+               				 
+               				<!--end logo-->
+               				<li class="nav"><a href="/resume">Resume</a></li>
+               				<li class="nav"><a href="{{ "/" | prepend: site.baseurl }}#contact">Contact</a></li>
+               			</ul>
+                         </section>
                     </div>
                </div>
+              
           </div>
+
      </div>
        
   {{ content }}
