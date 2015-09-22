@@ -13,12 +13,25 @@
   </head>
   <body>
        <!--LOGO/NAV-->
-       {% include header.html %}
+     <div class="hero">
+          <div class="sticky">
+               <div class="headingText" data-topbar role="navigation" data-options="sticky_on: large">
+                   <div class="logo large-12 columns">
+                        <span class="scroll-hide">HELLO, I'M</span> 
+                        <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}">JULIE SPRAGG</a></span>
+                        <br/><span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span>
+                        </div>
+               </div>
+          </div>
+     </div>
        
        {{ content }}
                   
        <!--FOOTER-->
-       {% include footer.html %}
+     <footer>
+          <div class="row"></div>
+          <div class="copyright">© 2015 Julie Spragg. All rights reserved.</div>
+     </footer>
        
        
          <script src="js/vendor/jquery.js"></script>
