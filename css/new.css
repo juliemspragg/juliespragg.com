@@ -246,3 +246,6 @@ figure:hover figcaption {
 	top:50%;
 	transform:translateY(-50%);
 }
+.portfolio_link {
+     text-align: center;
+}
