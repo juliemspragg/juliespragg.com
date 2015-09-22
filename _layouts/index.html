@@ -22,7 +22,7 @@ layout: default
                     <div class="large-5 columns">
                          <label for="name" id="name">Name <span id="required">*</span></label>
                          <input type="text" name="name" id="name" size="30" value="" required="">
-                    
+                         
                          <label for="email" id="email">Email <span id="required">*</span></label>
                          <input type="text" name="email" id="email" size="30" value="" required="">
                      </div>
@@ -30,6 +30,7 @@ layout: default
                          <label for="Message" id="message">Your Message<span id="required"> *</span></label>
                          <textarea name="message" id="message" required=""></textarea>
                          <input id="submit" type="submit" name="submit" value="Send Message" class="button radius">
+                         <input type="hidden" name="_next" value="{{ "/" | prepend: site.baseurl }}" />
      			</div>
                     </fieldset>
                </form>
