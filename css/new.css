@@ -6,7 +6,7 @@ body {
 	font-family:'Roboto Condensed',sans-serif!important;
 	height:auto!important;
 }
-
+/* Heading/top */
 .hero {
 	background-image:url(/img/compressedbg.jpg);
 	z-index:-1;
@@ -42,6 +42,7 @@ body {
 .sticky.fixed .logo {
 	line-height:.5em;
 	padding-top:10px;
+	font-size: 1.5em;
 }
 
 .sticky.fixed .logoName {
@@ -57,6 +58,44 @@ body {
 /* Safari */
 	transition-duration:.8s;
 }
+/* Nav */
+.top-bar-section ul {
+    display: inline-block;
+    background: transparent;
+}
+.top-bar-section ul li {
+    border-top: 0px;
+    padding: 0px 35px;
+    list-style: none;
+    background:none;
+}
+.top-bar-section .logo {
+     font-size:1.8em;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+     background: none;
+     color:  #7FB0B2;s
+}
+.navbar .logo li{
+     font-size: 1.5em;
+}
+.navbar li.logo a{
+          line-height: 0.5em !important;
+}
+.sticky.fixed .top-bar-section{
+    line-height: .5em;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background-color: #fefefe;
+    opacity: .93;
+}
+.sticky .nav {
+     opacity:0;
+}
+.sticky.fixed .nav{
+     opacity:1;
+}
+/* Contact */
 
 #success,#error {
 	display:none;
@@ -73,7 +112,7 @@ footer {
 footer .copyright {
 	display:block;
 	line-height:1.4em;
-	background-color:#e5e5e5;
+	background-color:#737269;
 	padding:25px;
 }
 
@@ -160,14 +199,6 @@ a.clip-each:hover {
 }
 
 
-
-.sticky.fixed .logo {
-	line-height:.5em;
-	padding-top:15px;
-	padding-bottom:15px;
-	background-color:#fefefe;
-	opacity:.93;
-}
 
 figure {
 	margin:0;
@@ -284,3 +315,13 @@ figure:hover figcaption {
     -o-transition: all .3s ease;
     transition: all .3s ease;
     }
+    
+.breaker {
+    background: #ccc;
+    width: 83px;
+    height: 1px;
+    clear: both;
+    margin: 0 auto;
+}
+
+

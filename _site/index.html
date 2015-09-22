@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Julie Spragg | Web Developer</title>
-    <link rel="stylesheet" href="/css/foundation.min.css" />
+    <link rel="stylesheet" href="css/foundation.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <link rel="stylesheet" href="/foundation-icons/foundation-icons.css" />
-    <link rel="stylesheet" href="/css/new.css" />
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
+    <link rel="stylesheet" href="css/new.css" />
     
   </head>
   <body>
@@ -17,21 +17,36 @@
           <div class="sticky">
                <div class="headingText" data-topbar role="navigation" data-options="sticky_on: large">
                    <div class="logo large-12 columns">
-                        <span class="scroll-hide">HELLO, I'M</span> 
-                        <span class="logoName"><a href="/">JULIE SPRAGG</a></span>
-                        <br/><span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span>
+                        
+                          <section class="top-bar-section navbar">
+                              <ul>
+               				<li class="nav"><a href="/">Home</a></li>
+               				<li class="nav"><a href="/portfolio">Portfolio</a></li>
+               				<!--logo-->
+               				<li class="logo"><span class="scroll-hide">HELLO, I'M</span> 
+                                       <span class="logoName"><a href="/">JULIE SPRAGG</a></span>
+                                       <br/>
+                                       <span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span></li>
+               				 
+               				<!--end logo-->
+               				<li class="nav"><a href="/resume">Resume</a></li>
+               				<li class="nav"><a href="/contact">Contact</a></li>
+               			</ul>
+                         </section>
                     </div>
                </div>
+              
           </div>
      </div>
        
        <!--ABOUT-->
 <div class="row about">
-          <h2 data-magellan-destination="about" class="heading">About</h2>
+          <h2 data-magellan-destination="about" class="heading">About<section class="breaker"></section></h2>
           <div class="medium-6 large-8 columns" >
                <a name="about"></a>
-               <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-               <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+               <p>Hi! I'm Julie and I love exploring the web. I have a passion for making things that look, feel, and operate better.  Sometimes I do this in my coding by employing the latest web development techniques. Other times it's found in my cooking, photography, or my interest in learning something new.</p>
+               <p>I have two bachelor degrees from Winthrop University. The first is in Psychology and was earned in 2009. My second degree was completed in 2014 and is in Digital Information Design, with a focus on web application development. The combination of these two degrees allows me a unique perspective on web development and working with people.</p>
+               <p>My husband and I are making a move from the Charlotte, NC area to Seattle soon, where I hope to continue my work as a front end web developer. Feel free to read my quick thoughts and shares on <a href="https://twitter.com/juliemspragg" target="_blank">Twitter</a>, check out my previous work in my <a href="/portfolio">Portfolio</a>, or connect with me on <a href="https://www.linkedin.com/in/juliemspragg" target="_blank">LinkedIn</a>.
           </div>
           <div class="medium-6 large-4 columns">
                 <!--Trying some Clip Path-->
@@ -147,17 +162,17 @@
        <!--FOOTER-->
      <footer>
           <div class="row"></div>
-          <div class="copyright">© 2015 Julie Spragg. All rights reserved.</div>
+          <div class="copyright ">© 2015 Julie Spragg. All rights reserved.</div>
      </footer>
        
        
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-         <script src="/js/foundation/foundation.js"></script>
-         <script src="/js/foundation/foundation.magellan.js"></script>
-         <script src="/js/foundation/foundation.topbar.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-         <script src="/js/customjs.js"></script>
+         <script src="js/vendor/jquery.js"></script>
+         <script src="js/foundation/foundation.js"></script>
+         <script src="js/foundation/foundation.magellan.js"></script>
+         <script src="js/foundation/foundation.topbar.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+         <script src="js/customjs.js"></script>
          <script>
               $(document).foundation(
               {
