@@ -1,12 +1,9 @@
----
----
-
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Julie Spragg | Web Developer</title>
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %} Web Developer</title>
     <link rel="stylesheet" href="css/foundation.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>    
     <script src="js/vendor/modernizr.js"></script>
@@ -17,46 +14,9 @@
   <body>
        <!--LOGO/NAV-->
        {% include header.html %}
-
-       <!--ABOUT-->
-       {% include about.html %}
        
-       <!--PORTFOLIO-->
-       {% include portfolio.html %}     
-       
-       
-       <!--CONTACT-->
-       <div class="row contact  "><!--hide-for-small-up-->
-          <div class="medium-6 large-12 columns" id="contactForm">
-               <h2 data-magellan-destination="contact" class="heading">Contact Me</h2>
-               <a name="contact"></a>
-                <form id="contact" name="contact" method="post" novalidate="novalidate"> 
-                     <fieldset>
-     			<div class="row form-messages">
-          			<div class="large-12 columns">
-     					     <div data-alert class="alert-box success animated fadeIn" id="success">Success! Your message has been sent.<a href="#" class="close">&times;</a></div>	
-     						<div data-alert class="alert-box alert animated fadeIn" id="error">Oops! Something went wrong, go back and try again.<a href="#" class="close">&times;</a></div>
-          			</div>
-     			</div>
-                          
-                    <div class="large-5 columns">
-                         <label for="name" id="name">Name <span id="required">*</span></label>
-                         <input type="text" name="name" id="name" size="30" value="" required="">
-                    
-                         <label for="email" id="email">Email <span id="required">*</span></label>
-                         <input type="text" name="email" id="email" size="30" value="" required="">
-                     </div>
-                     <div class="large-7 columns">
-                         <label for="Message" id="message">Your Message<span id="required"> *</span></label>
-                         <textarea name="message" id="message" required=""></textarea>
-                         <input id="submit" type="submit" name="submit" value="Send Message" class="button radius">
-     			</div>
-                    </fieldset>
-               </form>
-
-          </div>
-       </div>
-     
+       {{ content }}
+                  
        <!--FOOTER-->
        {% include footer.html %}
        
