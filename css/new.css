@@ -1,3 +1,6 @@
+---
+---
+
 html,h1,h2,h3,h4,h5 {
 	font-family:'Roboto Condensed',sans-serif!important;
 }
@@ -8,7 +11,7 @@ body {
 }
 /* Heading/top */
 .hero {
-	background-image:url(../img/compressedbg.jpg);
+	background-image:url(/img/compressedbg.jpg);
 	z-index:-1;
 	background-position:center top;
 	background-size:cover;
