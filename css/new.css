@@ -41,16 +41,19 @@ body {
 }
 
 .sticky.fixed .logo {
-	line-height:.5em;
-	padding-top:10px;
-	font-size: 1.5em;
+    font-size: 1.5em;
+    line-height: 0.03em;
+    padding-top: 0px;
+    padding-bottom: 24px;
 }
-
 .sticky.fixed .logoName {
 	font-size:1em;
 	-webkit-transition-duration:.8s;
 /* Safari */
 	transition-duration:.8s;
+}
+.logoName a {
+     padding:0px !important;
 }
 
 .sticky.fixed .logoTitle {
@@ -60,6 +63,10 @@ body {
 	transition-duration:.8s;
 }
 /* Nav */
+.top-bar {
+     background: transparent;
+     text-align: center;
+}
 .top-bar-section ul {
     display: inline-block;
     background: transparent;
@@ -68,6 +75,7 @@ body {
     border-top: 0px;
     padding: 0px 35px;
     list-style: none;
+    padding-top: 10px;
     background:none;
 }
 .top-bar-section .logo {
@@ -75,7 +83,8 @@ body {
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
      background: none;
-     color:  #7FB0B2;s
+     color:  #7FB0B2;
+     line-height: 2.3rem;
 }
 .navbar .logo li{
      font-size: 1.5em;
@@ -86,7 +95,6 @@ body {
 .sticky.fixed .top-bar-section{
     line-height: .5em;
     padding-top: 0px;
-    padding-bottom: 15px;
     background-color: #fefefe;
     opacity: .93;
 }
@@ -103,7 +111,50 @@ body {
     background: none;
     color: #4E6B6D;
 }
+.lefty {
+     text-align: left;
+     padding-left:10px;
+     
+}
+.sticky.fixed .logo.lefty {
+     line-height: 1em;
+}
+.sticky.fixed li:not(.logo) {
+     visibility: visible;          
+}
+.sticky li:not(.logo){
+     visibility: hidden;
+}
 
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+     box-shadow: 0 0 0 1px #000,0 7px 0 1px #000,0 14px 0 1px #000;
+}
+@media only screen and (max-width: 40em) { 
+     .hero {
+          padding-top: 0px;
+     }
+     .top-bar-section, .top-bar, .top-bar.expanded .title-area{
+          background:#fefefe;
+          opacity: 0.93;
+     }
+     .top-bar .toggle-topbar.menu-icon {
+          top:0px;
+          margin:0px;
+     }
+     .top-bar-section ul li {
+    border-top: 1px solid #d9d9d9;
+    padding:0px;
+     }
+     
+     .sticky.fixed li:not(.logo) {
+     visibility: visible;          
+}
+.sticky li:not(.logo){
+     visibility: visible;
+}
+
+}
 /* Contact */
 
 #success,#error {

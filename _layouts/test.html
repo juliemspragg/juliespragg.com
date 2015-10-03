@@ -1,4 +1,34 @@
-<div class="row-collapse portfolio">
+{% include header.html %}
+  <body>
+    <div class="nav-sticky sticky">
+
+	<nav class="top-bar"  data-topbar role="navigation">
+		<ul class="title-area">
+			<!-- Title Area -->
+			<!--logo-->
+			<li class="logo "><span class="scroll-hide">HELLO, I'M</span> 
+                   <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}">JULIE SPRAGG</a></span>
+                   <br/>
+                   <span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span></li>
+               <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+		</ul>
+	<section class="top-bar-section" style="left: 0%;">
+			<ul>
+				<li class=""><a href="/">Home</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+<!--logo-->
+               				<li class="logo hide-for-medium-down"><span class="scroll-hide">HELLO, I'M</span> 
+                                       <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}">JULIE SPRAGG</a></span>
+                                       <br/>
+                                       <span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span></li>				<li><a href="/resume">Resume</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</section></nav>
+	
+</div>
+     
+  {{ content }}
+  <div class="row-collapse portfolio">
           <h2 data-magellan-destination="portfolio" class="heading">Portfolio</h2>
           <div class="small-11 small-centered columns">
                <a name="portfolio"></a>
@@ -42,3 +72,4 @@
           <a href="{{"/portfolio/" | prepend: site.baseurl }}" class="btn">View All Work</a>
      </div>
 </div>
+{% include footer.html %}
