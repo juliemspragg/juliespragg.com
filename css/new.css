@@ -42,7 +42,7 @@ body {
 
 .sticky.fixed .logo {
     font-size: 1.5em;
-    line-height: 0.03em;
+    line-height: 0.07em;
     padding-top: 0px;
     padding-bottom: 24px;
 }
@@ -51,6 +51,7 @@ body {
 	-webkit-transition-duration:.8s;
 /* Safari */
 	transition-duration:.8s;
+	line-height: 1em;
 }
 .logoName a {
      padding:0px !important;
@@ -86,7 +87,7 @@ body {
      color:  #7FB0B2;
      line-height: 2.3rem;
 }
-.navbar .logo li{
+.navbar .logo{
      font-size: 1.5em;
 }
 .navbar li.logo a{
@@ -130,31 +131,52 @@ body {
 .top-bar .toggle-topbar.menu-icon a span::after {
      box-shadow: 0 0 0 1px #000,0 7px 0 1px #000,0 14px 0 1px #000;
 }
+/*Small Screen*/
 @media only screen and (max-width: 40em) { 
      .hero {
           padding-top: 0px;
      }
      .top-bar-section, .top-bar, .top-bar.expanded .title-area{
-          background:#fefefe;
-          opacity: 0.93;
+         
+          background: rgba(243, 243, 243, 0.92);
      }
      .top-bar .toggle-topbar.menu-icon {
           top:0px;
           margin:0px;
      }
      .top-bar-section ul li {
-    border-top: 1px solid #d9d9d9;
-    padding:0px;
+          border-top: 1px solid #d9d9d9;
+          padding:0px;
      }
      
      .sticky.fixed li:not(.logo) {
-     visibility: visible;          
+          visibility: visible;          
+     }
+     .sticky li:not(.logo){
+           visibility: visible;
+     }
+     .sticky.fixed .logo {
+          font-size:1em;
+          line-height: 1em;
+          padding-top:5px;
+     }
+     
 }
-.sticky li:not(.logo){
-     visibility: visible;
+/*Tablet/Med Screen*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+     .nav-sticky.sticky.fixed .top-bar{
+          background:rgba(243, 243, 243, 0.92);
+     }
+   
+     .top-bar.expanded .title-area {
+         background: none;
+         padding-top: 10px;
+     }
+     
 }
 
-}
+
+
 /* Contact */
 
 #success,#error {
