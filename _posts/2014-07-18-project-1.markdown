@@ -4,11 +4,11 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2012-09-15
-img: rss.png
+img: rssreader.jpg
 thumbnail: rssthumbnail.jpg
-alt: image-alt
+alt: rss feed
 project-date: September 2012
-client: School Assignment
+client: School Assignment-Winthrop University
 category: Web Development
 description: This was a small group project designed to learn responsive design techniques and how to use json to parse XML data using JSON and AJAX.
 

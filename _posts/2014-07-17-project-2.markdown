@@ -1,15 +1,15 @@
 ---
-title: Escape
+title: Carolina Ingredients
 subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: carolinaingredients.png
+thumbnail: carolinaIngredients.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: 2014
+client: Atypic Craft
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: This was one of my first larger products while employed at Atypic. Under the direction of the design team, project managers, and with assistance from the development team, I coded the front-end aspects of their new site in conjunction with the CMS. Using CSS techniques, I implemented the design of the various carousels and many of the basic page layouts. As with other projects, I also implemented new features upon request and performed QA tests for the client and my supervisors. This project allowed me to research the best methods for design implementation as well as how to work with a team. 
 
 ---

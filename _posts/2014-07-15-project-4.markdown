@@ -1,15 +1,15 @@
 ---
-title: Treehouse
+title: S.E.M. Products
 subtitle: Website Design
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+img: sem.png
+thumbnail: sem-thumb.jpg
+alt: SEM project
+project-date: 2014
+client: Atypic Craft
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Working with the project manager in conjunction with the client and various team members at Atypic, I assisted in transferring SEM’s site over to Atypic’s custom CMS. This meant performing thorough QA testing and debugging throughout the site as well as ensuring that responsive design principles were met. We also implemented a few design changes as well as new page layouts, search features, and a blog.  My supervisor also allowed me to lead training and overview sessions with the client via WebEx. This experience gave me hands-on interaction on various sides of a project, from client relations to coding in a real-world scenario.
 
 ---

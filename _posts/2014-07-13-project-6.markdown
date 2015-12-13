@@ -1,15 +1,15 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Reveal Global
+subtitle: Website Design
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+img: reveal.jpg
+thumbnail: revealthumb.jpg
+alt: Reveal Global Project
+project-date: 2014
+client: Atypic Craft
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Under the supervision of Atypic client and project managers, I coded a responsive wireframe mockup to present to clients. This involved setting up the Atypic CMS so that changes can be made dynamically; as well as coding and performing QA testing.  
 
 ---

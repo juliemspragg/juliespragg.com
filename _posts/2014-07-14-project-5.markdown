@@ -1,15 +1,15 @@
 ---
-title: Startup Framework
+title: Cluck Design
 subtitle: Website Design
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: cluck.jpg
+thumbnail: cluck-thumbnail.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: 2014
+client: Atypic Craft
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: The Atypic team worked together to create a dynamic and user friendly website using existing design principles for Cluck. This included transporting files and information from their existing stand-alone site to Atypic’s dynamic CMS. While employed at Atypic, I also assisted in training the client on how to implement changes to the site as well as how to navigate the CMS. I learned about site optimization when serving large images as well as more experience connecting the back-end CMS with the front-end elements. 
 
 ---

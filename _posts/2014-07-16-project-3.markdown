@@ -1,15 +1,15 @@
 ---
-title: Golden
+title: Girls on the Run
 subtitle: Website Design
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: girlsontherun.jpg
+thumbnail: girlsontherun-thumb.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: 2014
+client: Atypic Craft
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: While at Atypic, I performed numerous tasks for one of their clients, Girls on the Run. Some of these tasks included assisting the SEO team to optimize the site based on current standards, assisting with setting up or modifying individual council pages, and completing PSD to web completion of various pages throughout the site, such as the Coach portal. I also performed QA testing when new features were released, assisted other development team members with Blog and mobile integration on both the backend and with front-end.
 
 ---
