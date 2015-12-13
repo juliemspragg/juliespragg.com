@@ -1,44 +1,22 @@
-{% include header.html %}
-  <body>
-       <!--LOGO/NAV-->
-     <div class="hero">
-          <div class="nav-sticky sticky">
+<!DOCTYPE html>
+<html>
 
-	<nav class="top-bar"  data-topbar role="navigation">
+  {% include head.html %}
 
-		<ul class="title-area">
-			<!-- Title Area -->
-			<!--logo-->
-              <li class="logo visible-for-small-only "><span class="scroll-hide">HELLO, I'M</span> 
-               <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}"> JULIE SPRAGG</a></span><br/>
-               <span class="logoTitle">FRONT END <span class="scroll-hide">WEB</span> DEVELOPER<br/></span></li>
-                <li class="logo visible-for-medium-only"><span class="scroll-hide">HELLO, I'M</span> 
-               <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}"> JULIE SPRAGG</a></span><br/>
-               <span class="logoTitle">FRONT END <span class="scroll-hide">WEB</span> DEVELOPER<br/></span></li>
-			<li class="toggle-topbar menu-icon"><a href=""><span></span></a></li>
-		</ul>
-   
-		
 
-	<section class="top-bar-section" style="left: 0%;">
-     				<ul>
-				<li class=""><a href="/">Home</a></li>
-				<li><a href="{{ "/" | prepend: site.baseurl }}portfolio">Portfolio</a></li>
-                    <!--logo-->
-				<li class="logo visible-for-large-up"><span class="scroll-hide">HELLO, I'M</span> 
-                        <span class="logoName"><a href="{{ "/" | prepend: site.baseurl }}">JULIE SPRAGG</a></span>
-                        <br/>
-                        <span class="logoTitle">FRONT END</span> <span class="scroll-hide">WEB</span><span class="logoTitle"> DEVELOPER</span></li>
-                    <!--/logo-->
-                        <li><a href="/resume">Resume</a></li>
-				<li><a href="{{ "/" | prepend: site.baseurl }}#contact">Contact</a></li>
-			</ul>
-		</section></nav>
-	
-</div>
-     </div>
-     
-       
-  {{ content }}
-             
-{% include footer.html %}
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include team.html %}
+     <!-- {% comment %}{% include about.html %} <!-- {% endcomment %}
+
+    <!-- {% comment %}{% include services.html %}{% endcomment %} -->
+    {% include portfolio_grid.html %}
+    <!-- {% comment %}{% include clients.html %}{% endcomment %} -->
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
+</html>

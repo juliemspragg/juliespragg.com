@@ -1,4 +1,47 @@
+url: https://juliespragg.com
+baseurl: /juliespragg.com
+
 # Site settings
 title: Julie Spragg | Web Developer
+email: julie@spragg.me
 description: "The online portfolio of Julie Spragg, frontend developer"
-baseurl: https://juliemspragg.github.io/juliespragg.com
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 7FB0B2
+  secondary: 7FB0B2 
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Julie Spragg
+  pic: 1
+  position: Front End Developer
+  social:
+    - title: twitter
+      url: http://twitter.com/juliemspragg
+    - title: facebook
+      url: http://facebook.com/juliembrown
+    - title: linkedin
+      url: https://linkedin.com/juliemspragg
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/juliemspragg
+  - title: facebook
+    url: http://facebook.com/juliembrown
+  - title: github
+    url: https://github.com/juliemspragg
+  - title: linkedin
+    url: https://linkedin.com/juliemspragg
+ 
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

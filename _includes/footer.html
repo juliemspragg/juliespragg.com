@@ -1,79 +1,17 @@
-       <!--FOOTER-->
-     <footer>
-          <div class="row">
-     	    <div class="large-12 columns">
-     	    	<ul>
-                   <li><a href="/">Home</a></li>
-                   <li><a href="/portfolio">Portfolio</a></li>
-                   <li><a href="/resume">Resume</a></li>
-                   <li><a href="#contact">Contact</a></li>
-     	    	</ul>
-     
-               <div class="social-links">
-                    <ul>
-                         <li><a href="https://github.com/juliemspragg" target="_blank"><i class="fa fa-github"></i></a></li>
-                         <li><a href="https://www.facebook.com/juliembrown" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                         <li><a href="https://twitter.com/juliemspragg" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                         <li><a href="https://www.linkedin.com/in/juliemspragg" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">&copy; 2015 {{ site.title }}</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
                     </ul>
-               </div>
-     
-     	    </div>
-
-     	</div>
-          <div class="row"></div>
-          <div class="copyright ">© 2015 Julie Spragg. All rights reserved.</div>
-     </footer>
-       
-       
-         <script src="{{ "/" | prepend: site.baseurl }}js/vendor/jquery.js"></script>
-         <script src="{{ "/" | prepend: site.baseurl }}js/foundation/foundation.js"></script>
-         <script src="{{ "/" | prepend: site.baseurl }}js/foundation/foundation.topbar.js"></script>
-         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-         <script src="{{ "/" | prepend: site.baseurl }}js/customjs.js"></script>
-         <script>
-              $(document).foundation(
-                   {
-                        sticky_class : 'sticky',
-                        scrolltop : false,
-                   }
-                   
-              );
-          </script>
-          <script type="text/javascript">
-            	// validate contact form
-                 $(function() {
-                    $('#contact').validate({
-                 	        rules: {
-                 	            name: {
-                 	                required: true,
-                 	                minlength: 2
-                 	            },
-                 	            email: {
-                 	                required: true,
-                 	                email: true
-                 	            },
-                 	            message: {
-                 	                required: true
-                 	            },
-                 	        },
-                 	        messages: {
-                 	            name: {
-                 	                required: "This field is required.",
-                 	            },
-                 	            email: {
-                 	                required: "This field is required."
-                 	            },
-                 	            message: {
-                 	                required: "This field is required.",
-                 	            },
-                 	            
-                 	        },
-                            
-                 	    });
-                    });
-          </script>
-          
-     </body>
-</html>
+                </div>
+            </div>
+        </div>
+    </footer>
