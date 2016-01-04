@@ -1,0 +1,15 @@
+---
+title: Animals
+subtitle: May 10, 2015
+layout: photos
+modal-id: 2
+date: 2015-05-10
+thumbnail: https://c2.staticflickr.com/8/7687/17351798068_f67cfdd9e3.jpg
+pixgallery: http://blueboxstudio.pixieset.com/animals/
+alt: Animals Misc
+image: 
+ - https://c2.staticflickr.com/8/7687/17351798068_f67cfdd9e3_c.jpg
+project-date: 2015
+description: Fun at the farm, and various places in the US. I have always had an interest in animals, and constantly find myself around them. The cows pictures were taken while visiting my in-laws in Virginia, while the two dogs you see in the gallery are our pets. What can I say, animals are a great and usually cooperative subject.    
+
+---

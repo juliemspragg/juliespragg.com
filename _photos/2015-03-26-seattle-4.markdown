@@ -1,0 +1,15 @@
+---
+title: Seattle
+subtitle: March 26, 2015
+layout: photos
+modal-id: 4
+date: 2015-03-26
+thumbnail: https://c1.staticflickr.com/9/8780/16430019493_debd0097a2.jpg
+pixgallery: http://blueboxstudio.pixieset.com/seattle/
+alt: Seattle
+image: 
+ - https://c2.staticflickr.com/8/7604/17024039016_413371e372_c.jpg
+project-date: 2015
+description: So, I have had this bucket list since I was about 15. One of the top things on it was to visit Seattle, WA. Luckily, I married someone who has a sister who lives in Snohomish, which is just north of Seattle. We decided to visit both the city as well as our new nephew, Beckett. We had so much fun exploring the city, including the needle, Pikes Place, and the Fremont Troll. 
+
+---

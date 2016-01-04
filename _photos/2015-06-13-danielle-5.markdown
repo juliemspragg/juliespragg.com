@@ -1,0 +1,15 @@
+---
+title: Danielle
+subtitle: June 13, 2015
+layout: photos
+modal-id: 5
+date: 2015-06-13
+thumbnail: https://c1.staticflickr.com/1/508/18796281481_586e3bcb7c.jpg
+pixgallery: http://blueboxstudio.pixieset.com/danielle/
+alt: Danielle Pics
+image: 
+ - https://c1.staticflickr.com/1/484/18171122304_21b89f9415_c.jpg
+project-date: 2015
+description: Danielle is one of my longest friends and I had the pleasure of going to the new downtown Rock Hill and taking some shots around town. It was a super hot day, but we had fun and enjoyed spending the day together.   
+
+---

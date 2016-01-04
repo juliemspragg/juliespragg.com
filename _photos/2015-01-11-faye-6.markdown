@@ -1,0 +1,15 @@
+---
+title: Lamar and Faye
+subtitle: January 11, 2015
+layout: photos
+modal-id: 6
+date: 2015-01-11
+thumbnail: https://c2.staticflickr.com/8/7543/16071858058_29c988daf4.jpg
+pixgallery: http://blueboxstudio.pixieset.com/fayeandlamar-2635740/
+alt: Dad Wedding
+image: 
+ - https://c2.staticflickr.com/2/1707/24158463905_79e87d1794_c.jpg
+project-date: 2015
+description: Lamar and Faye were married on January 11, 2015 at a small church in Fort Lawn, SC. Their wedding was held during the church's normal Sunday service, which is apparently something that used to happen all the time. They wanted to keep it simple and uncomplicated, and it was perfect! The flowers were gorgeous and the small church was decorated well. Afterward, there was cake and some food for everyone before we all adjourned for the day. While I wasn't the primary photographer, I tried to catch a few shots and stay out of the way. Congrats to Faye and Lamar on your wedding!   
+
+---

@@ -1,0 +1,15 @@
+---
+title: Food
+subtitle: July 18, 2015
+layout: photos
+modal-id: 3
+date: 2015-07-18
+thumbnail: https://c2.staticflickr.com/4/3919/18741281223_9362ee6eaf.jpg
+pixgallery: http://blueboxstudio.pixieset.com/food/
+alt: Food Pics
+image: 
+ - https://c2.staticflickr.com/6/5624/23599068511_54a66334fc_c.jpg
+project-date: 2015
+description: I have a love of baking. Luckily, I have plenty of family and friends who enjoy eating my creations. From cupcakes and cookies to Thomas Keller's roasted chicken, these are a few pics from my kitchen experiments.    
+
+---

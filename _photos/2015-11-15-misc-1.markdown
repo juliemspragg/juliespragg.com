@@ -1,0 +1,15 @@
+---
+title: Misc
+subtitle: November 15, 2015
+layout: photos
+modal-id: 1
+date: 2015-11-15
+thumbnail: https://c1.staticflickr.com/9/8838/17152050520_219166a9d9.jpg
+pixgallery: http://blueboxstudio.pixieset.com/misc/
+alt: Misc Pics
+image: 
+ - https://c2.staticflickr.com/8/7327/16555604432_cc13965758_b.jpg
+project-date: 2015
+description: These are some random pictures from our trip to Puerto Rico and around Waxhaw, NC.   
+
+---

@@ -4,7 +4,8 @@ baseurl:
 # Site settings
 title: Julie Spragg | Web Developer
 email: julie@spragg.me
-description: "The online portfolio of Julie Spragg, frontend developer"
+description: "The online portfolio of Julie Spragg, front end developer"
+secondarytitle: Julie Spragg | Photographer
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -25,6 +26,9 @@ people:
     - title: linkedin
       url: https://linkedin.com/juliemspragg
 
+#collections
+collections:
+- photos
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -36,6 +40,8 @@ social:
     url: https://github.com/juliemspragg
   - title: linkedin
     url: https://linkedin.com/juliemspragg
+  - title: instagram
+    url: https://instagram.com/juliemspragg
  
 # Postal address (add as many lines as necessary)
 address:
