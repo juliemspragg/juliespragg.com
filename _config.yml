@@ -13,6 +13,10 @@ color:
   secondary: 7FB0B2 
   secondary-dark: 333
 
+#collections
+collections:
+- photos
+
 # Team names, titles and social links
 people:
 - name: Julie Spragg
@@ -25,11 +29,18 @@ people:
       url: http://facebook.com/juliembrown
     - title: linkedin
       url: https://linkedin.com/juliemspragg
-
-#collections
-collections:
-- photos
-
+people1:
+- name: Julie Spragg
+  pic: 1
+  position: Photographer
+  social:
+    - title: flickr
+      url: https://www.flickr.com/photos/juliemspragg/albums
+    - title: facebook
+      url: http://facebook.com/juliembrown
+    - title: instagram
+      url: https://instagram.com/juliemspragg
+      
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -42,7 +53,15 @@ social:
     url: https://linkedin.com/juliemspragg
   - title: instagram
     url: https://instagram.com/juliemspragg
- 
+
+social1:
+- title: flickr
+  url: https://www.flickr.com/photos/juliemspragg/albums
+- title: facebook
+  url: http://facebook.com/juliembrown
+- title: instagram
+  url: https://instagram.com/juliemspragg
+
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place

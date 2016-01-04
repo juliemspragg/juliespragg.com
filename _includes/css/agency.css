@@ -1015,3 +1015,7 @@ header.photo {
 .navbar-brand.photo {
 	color: #fff;
 }
+.Photography {
+	padding-bottom:0px !important;
+	padding-top:100px;
+}
