@@ -1,5 +1,6 @@
 ---
 title: Seattle
+caption: Travel
 subtitle: March 26, 2015
 layout: photos
 modal-id: 4

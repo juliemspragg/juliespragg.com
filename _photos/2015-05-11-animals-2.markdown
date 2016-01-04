@@ -1,5 +1,6 @@
 ---
 title: Animals
+caption: An assortment of animal shoots
 subtitle: May 10, 2015
 layout: photos
 modal-id: 2

@@ -1,5 +1,6 @@
 ---
 title: Danielle
+caption: Portraits
 subtitle: June 13, 2015
 layout: photos
 modal-id: 5

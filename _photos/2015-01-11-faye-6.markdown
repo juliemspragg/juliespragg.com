@@ -1,12 +1,13 @@
 ---
 title: Lamar and Faye
+caption: Wedding
 subtitle: January 11, 2015
 layout: photos
 modal-id: 6
 date: 2015-01-11
 thumbnail: https://c2.staticflickr.com/8/7543/16071858058_29c988daf4.jpg
 pixgallery: http://blueboxstudio.pixieset.com/fayeandlamar-2635740/
-alt: Dad Wedding
+alt: Wedding
 image: 
  - https://c2.staticflickr.com/2/1707/24158463905_79e87d1794_c.jpg
 project-date: 2015

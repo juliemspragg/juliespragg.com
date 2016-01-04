@@ -1,5 +1,6 @@
 ---
 title: Misc
+caption: Various Pictures
 subtitle: November 15, 2015
 layout: photos
 modal-id: 1

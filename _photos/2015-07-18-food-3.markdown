@@ -1,5 +1,7 @@
 ---
 title: Food
+caption: Dishes I've created
+
 subtitle: July 18, 2015
 layout: photos
 modal-id: 3
