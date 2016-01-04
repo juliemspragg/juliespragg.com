@@ -1021,3 +1021,17 @@ header.photo {
 }
 #portfolio {
 	padding:100px 0px !important}
+	
+.gallery {
+	background-color: #{{ site.color.primary }};
+	color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+.gallery a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	    padding: 15px;
+
+}
