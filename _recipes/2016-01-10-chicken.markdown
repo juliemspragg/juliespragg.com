@@ -1,6 +1,7 @@
 ---
 title: Jamie Oliver's Milk Chicken
 caption: Roasts
+recipe-id: milkChicken
 recipeLink: http://www.thekitchn.com/jamie-oliver-chicken-in-milk-best-chicken-recipe-all-time-80388
 subtitle: January 10, 2016
 layout: recipes
