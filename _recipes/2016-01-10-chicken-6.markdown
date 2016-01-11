@@ -1,0 +1,19 @@
+---
+title: Jamie Oliver's Milk Chicken
+caption: Roasts
+recipeLink: http://www.thekitchn.com/jamie-oliver-chicken-in-milk-best-chicken-recipe-all-time-80388
+subtitle: January 10, 2016
+layout: recipes
+modal-id: 6
+date: 2016-01-10
+thumbnail: https://c2.staticflickr.com/2/1508/24192399442_63cc1216a1.jpg
+alt: Roasted Chicken
+image: 
+ - https://c2.staticflickr.com/2/1508/24192399442_63cc1216a1_c.jpg
+project-date: 2016
+description: So, I've been on a chicken kick lately. I only buy them when I find them on sale, and my rule is to buy them if I can get them for less than $5. Why this much? Becuase a roatisserie chicken from Walmart is $4.98, and it's already made. No brainer. However, I've found these to not be great quality, and we don't get a lot of great tasting meat for us, most of the meat goes to the pups. 
+
+description2: I got this chicken for right under $5, and had all of the other ingredients on hand.  I was going to make Pioneer Woman's Lemon Rosemary chicken, but found out my rosemary was moldy. Last min decision and quick inventory of my ingredients, and I decided to go for <a href="http://www.thekitchn.com/jamie-oliver-chicken-in-milk-best-chicken-recipe-all-time-80388" target="_blank"> Jamie Oliver's Milk Chicken</a>.
+
+recipe: <img src="https://c2.staticflickr.com/2/1625/23671741043_1ec7df8feb_z.jpg"/><br/><br/>The basics of this recipe include browning a chicken in a pan with a lot of butter/oil after seasoning it with salt and pepper inside and out. Adding milk, cinnamon, lemon zest, and shoving some lemon in the chicken. I usually squeeze a lemon from the zesting all over as well. Bake it in a 350 degree oven for 90 minutes. Also, make sure you have a pan that can be put on the stove as well as in an oven. A dutch oven would be great but don't make the mistake I did.<img src="https://c2.staticflickr.com/2/1609/23670386354_596f34beb8_z.jpg"/> <br/><br/>I also didn't have cinnamon sticks or fresh sage, so I used ground cinnamon and rubbed sage. They worked great and the chicken was delicious!
+---

@@ -6,6 +6,7 @@ title: Julie Spragg | Web Developer
 email: julie@spragg.me
 description: "The online portfolio of Julie Spragg, front end developer"
 secondarytitle: Julie Spragg | Photographer
+recipetitle: Julie Spragg | Food Lover
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -16,6 +17,7 @@ color:
 #collections
 collections:
 - photos
+- recipes
 
 # Team names, titles and social links
 people:

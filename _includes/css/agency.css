@@ -1015,6 +1015,9 @@ figure.effect-honey:hover h2 i {
 header.photo {
 	 background-image: url(/photos/img/cameramain.jpg);
 }
+header.recipe {
+	background-image: url(/recipes/img/coffee.jpg);
+}
 .navbar-brand.photo {
 	color: #fff;
 }
