@@ -6,15 +6,17 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
+                        {% for network in site.social1 %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2 col-md-offset-2">
                 	<ul class="list-inline social-buttons">
-	                	<li class="photoLink"><a href="/"><i class="fa fa-laptop"></i></a>
+	                	<li class=""><a href="/"><i class="fa fa-laptop"></i></a>
+						<li class=""><a href="/recipes"><i class="fa fa-cutlery"></i></a>
+						<!--<li class="photoLink"><a href="/photos"><i class="fa fa-computer"></i></a>-->
                         </li>
                 	</ul>
                 </div>
