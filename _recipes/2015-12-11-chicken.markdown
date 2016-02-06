@@ -1,0 +1,18 @@
+---
+title: Lemon Rosemary Chicken
+caption: Roasts
+recipe-id: rosemaryCkn
+recipeLink: http://thepioneerwoman.com/cooking/roast-chicken/
+subtitle: December 11, 2015
+layout: recipes
+modal-id: 5
+date: 2015-11-12
+thumbnail: https://c2.staticflickr.com/6/5624/23599068511_54a66334fc.jpg
+alt: Roasted Chicken
+image: 
+ - https://c2.staticflickr.com/6/5624/23599068511_54a66334fc_c.jpg
+project-date: 2015
+description: Whenever I search for recipes, I admit to searching <a href="http://www.thepioneerwoman.com" target="_blank">The Pioneer Woman.</a> Her opinion is amazing and her recipes have literally never failed me. So when I saw her recipe pop up in a roast chicken forum, I knew I needed to try it. Off the the store I went to gather ingredients. Once again, a cheap chicken was procured, as well as rosemary, lemon, and butter. <br/>
+
+recipe: <img src="https://c2.staticflickr.com/6/5827/23052444843_b89439f066_z.jpg"/><br/><br/>The basics of this recipe include zesting lemons, chopping fresh rosemary, and combining them with butter.  You rub the chicken all over with the butter (after salt and peppering it). Smear it good! Place the lemon halves inside and stuff the rosemary leaves inside. Bake at 425 for an hour and 15 minutes. Carve it up and it's delicious! <br/><br/> <img src="https://c1.staticflickr.com/1/568/23313581529_264ff25ddf_z.jpg"/> <br/><br/>
+---
