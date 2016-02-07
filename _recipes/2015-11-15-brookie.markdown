@@ -1,0 +1,21 @@
+---
+title: Brookie (Brownie Cookie)
+caption: Dessert
+recipe-id: brookie
+recipeLink: 
+subtitle: July 2, 2015
+layout: recipes
+modal-id: 2
+date: 2015-07-02
+thumbnail: https://c2.staticflickr.com/4/3919/18741281223_9362ee6eaf.jpg
+alt: Brookie
+image: 
+ - https://c1.staticflickr.com/1/561/19174278250_9bb6fc321b_c.jpg
+project-date: 2015
+description: Brownies and Cookies, the best of both worlds.  I created this recipe when I was trying to find a good birthday dessert for my brother. He loves chocolate, even though he's in severe denail about it.  After searching <a href="https://pinterest.com/juliemspragg">Pinterest</a> for a while, I deduced that I wanted my brownie part to have that crinkle texture of a good pan of brownies, and I wanted the chocolate chip side to be like my grandma's.  After calling her, I was surprised to discovered she used the Nestle recipe for chocolate chip cookies. There ya have it. The cookies I thought were some sort of secret recipe growing up turned out to be the Nestle cookie recipe. 
+
+description2: So this recipe is comprised of two parts. <a target="_blank" href="https://www.verybestbaking.com/recipes/18476/original-nestle-toll-house-chocolate-chip-cookies/">Here is the Nestle cookie recipe </a>, and <a target="_blank" href="http://livforcake.com/2015/11/brownie-cookies.html">here is the brownie cookie recipe</a>.  
+
+recipe: <img src="https://c2.staticflickr.com/4/3923/18741298903_a4f823e802_z.jpg"/><br/>The recipe goes as follows. Make the two recipes above, but keep the batters separate. Form the dough into teaspoon sized balls. If the batter is too sticky, put it in the fridge for a while to chill it, which makes the dough so much more workable (Hint, this works great if you ever make truffles). After you've made the balls, grab one of each and press them together and gently form them into a cookie shape. Then, flatten the cookie some before baking for 8-10 minutes at 350 degrees. 
+
+---

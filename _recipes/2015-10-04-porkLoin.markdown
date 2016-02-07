@@ -1,0 +1,20 @@
+---
+title: Pork Loin
+caption: Roast
+recipe-id: porkloin
+recipeLink: http://www.bunsinmyoven.com/2015/04/14/garlic-roast-pork-with-vegetables-and-garlic-gravy/
+subtitle: October 4, 2015
+layout: recipes
+modal-id: 2
+date: 2015-10-04
+thumbnail: https://c2.staticflickr.com/6/5762/21758786718_f7d9ed8e79.jpg
+alt: Pork Loin
+image: 
+ - https://c2.staticflickr.com/6/5762/21758786718_f7d9ed8e79_z.jpg
+project-date: 2015
+description: Coming up with new ideas for dinner becomes a challenge, especially with a picky husband. We don't eat a lot of beef, usually sticking to chicken and turkey. So when I decided to make a pork loin, I knew it had to be good. 
+
+description2: The recipe uses a pre-seasoned pork loin from Smithfield that you can find in any grocery store meat department. It also contains the recipe for a garlic gravy that is honestly amazing. The roasted veggies are probably my favorite, to be honest. I love a good roasted potato, carrot, or any root vegetable.  
+
+recipe: <img src="https://c2.staticflickr.com/6/5641/21934566942_3fcc4ab01b_z.jpg"/><br/><br/>The basics of this recipe are to toss any veggies you want in olive oil and seasoning, spread those in the pan. Put the pork in, finish spreading veggies around the pork. Roast for 30 minutes covered, then continue roasting for 45 minutes. After you test to make sure the roast is 160 degrees, put some butter on it and let it rest for about 15 minutes. This makes it super moist. <img src="https://c2.staticflickr.com/6/5767/21758769558_48640f951d_z.jpg"/> <br/><br/>
+---
