@@ -12,7 +12,7 @@ alt: Violet Crumble
 image: 
  - https://c2.staticflickr.com/6/5641/23050564931_7c14df5ae0_c.jpg
 project-date: 2015
-description: My husband spent part of his childhood in Papua New Guinea. He told me about things they used to eat, and one treat they would get were these candy bars called Violet Crumbles. They're like honeycomb covered in chocolate. After searching around our home, I discovered they're no longer sold around here.
+description: My husband spent part of his childhood in Papua New Guinea. He told me about things they used to eat, and one treat they would get were these candy bars called Violet Crumbles. They're like honeycomb covered in chocolate. After searching around our home, I discovered they're no longer sold around here.  
 
 description2: So, I set out to make them. After jumping from recipe to recipe, I discovered I had all the ingredients on hand. Corn syrup, honey, sugar, baking soda.  Milk chocolate and some white chocolate were a necessity, of course. 
 
