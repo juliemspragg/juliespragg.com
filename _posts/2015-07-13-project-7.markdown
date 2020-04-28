@@ -4,8 +4,8 @@ subtitle: Website Development
 layout: default
 modal-id: 7
 date: 2017-02-01
-img: cccmain.PNG
-thumbnail: CccmainThumb.png
+img: cccmain-2.PNG
+thumbnail: CccmainThumb-2.png
 alt: ccc main website
 project-date: 2017
 client: Counter Culture Coffee

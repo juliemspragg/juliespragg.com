@@ -4,8 +4,8 @@ subtitle: Website Development
 layout: default
 modal-id: 8
 date: 2016-07-15
-img: ccc2015.PNG
-thumbnail: 2016reportcccthumb.png
+img: ccc2015-2.PNG
+thumbnail: TreportcccTHUMB-2.png
 alt: ccc Transparency Report
 project-date: 2016
 client: Counter Culture Coffee
