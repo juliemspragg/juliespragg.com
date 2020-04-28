@@ -4,7 +4,7 @@ subtitle: Website Development
 layout: default
 modal-id: 8
 date: 2016-07-15
-img: 2016reportcccthumb.png
+img: ccc2015.png
 thumbnail: 2016reportcccthumb.png
 alt: ccc Transparency Report
 project-date: 2016
