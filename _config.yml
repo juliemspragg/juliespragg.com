@@ -25,10 +25,10 @@ people:
   pic: 1
   position: Front End Developer
   social:
+    - title: instagram
+      url: https://instagram.com/juliemspragg
     - title: twitter
       url: http://twitter.com/juliemspragg
-    - title: facebook
-      url: http://facebook.com/juliembrown
     - title: linkedin
       url: https://linkedin.com/juliemspragg
 people1:
