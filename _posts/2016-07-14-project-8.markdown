@@ -4,12 +4,13 @@ subtitle: Website Development
 layout: default
 modal-id: 8
 date: 2016-07-15
-img: ccc2015.png
+img: ccc2015.PNG
 thumbnail: 2016reportcccthumb.png
 alt: ccc Transparency Report
 project-date: 2016
 employer: Counter Culture Coffee
 category: Web Development
 description: One of my first big tasks at Counter Culture Coffee was to help create a one page web report of the company’s year in review. This report had to be responsive, present a large amount of data in an engaging and clean way, and maintain portability to a new platform. 
+
 
 ---

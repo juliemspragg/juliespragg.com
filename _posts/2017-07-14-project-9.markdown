@@ -4,12 +4,13 @@ subtitle: Website Development
 layout: default
 modal-id: 9
 date: 2017-07-15
-img: ccc2016.png
+img: ccc2016.PNG
 thumbnail: TreportcccTHUMB.png
 alt: ccc Transparency Report
 project-date: 2017
 employer: Counter Culture Coffee
 category: Web Development
 description: This transparency report for Counter Culture maintained the original layout of the 2015 report.  However, it included an updated design and involved incorporating the Woocommerce custom post type into the page creation. We also worked to improve the data to compare and contrast the different years in the same report. 
+
 
 ---

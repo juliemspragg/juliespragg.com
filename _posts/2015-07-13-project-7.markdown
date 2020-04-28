@@ -4,12 +4,13 @@ subtitle: Website Development
 layout: default
 modal-id: 7
 date: 2017-02-01
-img: cccmain.png
+img: cccmain.PNG
 thumbnail: CccmainThumb.png
 alt: ccc main website
 project-date: 2017
 employer: Counter Culture Coffee
 category: Web Development
-description: This project entailed assuming complete front-end development work in the launch of a new website on the Woocommerce platform for Counter Culture Coffee. This project consisted of developing, testing, migrating data, and ensuring all endpoint connects to the ERP functioned well. During my time at Counter Culture I worked with many teams to improve, test, modify, and add new functionality to the website and ERP. This included creating several plugins to achieve goals, improve reporting, and increase user satisfaction of the e-commerce platform.  
+description: This project entailed assuming complete front-end development work in the launch of a new website on the Woocommerce platform for Counter Culture Coffee. This project consisted of developing, testing, migrating data, and ensuring all endpoint connects to the ERP functioned well. <br/>During my time at Counter Culture I worked with many teams to improve, test, modify, and add new functionality to the website and ERP. This included creating several plugins to achieve goals, improve reporting, and increase user satisfaction of the e-commerce platform.  
+
 
 ---
